@@ -1,5 +1,3 @@
-# DimABSA
-
 # Dimensional Aspect Sentiment Regression (DimASR)
 
 ## Overview
