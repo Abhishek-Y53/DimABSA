@@ -1,0 +1,30 @@
+TRAIN DATA of restraunt on laptop model
+    Instances: 3659
+    RMSE_VA: 1.3515  ← primary
+    SemEval
+    metric
+    RMSE_V: 1.0385
+    RMSE_A: 0.8649
+    Pearson_V: 0.8312
+    Pearson_A: 0.6550
+
+TRAIN DATA of laptop on restraunt model
+    Instances  : 5773
+    RMSE_VA    : 1.2115  ← primary SemEval metric
+    RMSE_V     : 0.9175
+    RMSE_A     : 0.7911
+    Pearson_V  : 0.8681
+    Pearson_A  : 0.6657
+
+
+While training restraunt model
+    Train Loss: 0.1299
+    Dev Loss:   0.7381
+    Valence Pearson: 0.8816
+    Arousal Pearson: 0.7474
+
+While training laptop model
+    Train Loss: 0.2293
+    Dev Loss:   0.5963
+    Valence Pearson: 0.8789
+    Arousal Pearson: 0.7252
