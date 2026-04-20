@@ -1,0 +1,207 @@
+laptop training
+
+>>> Model Saved
+Epoch 1 | Total Loss: 2.0919 | MSE Loss: 1.9398
+Valence Corr: 0.8365 | Arousal Corr: 0.4063
+----------------------------------------
+>>> Model Saved
+Epoch 2 | Total Loss: 1.1060 | MSE Loss: 0.5984
+Valence Corr: 0.8605 | Arousal Corr: 0.4561
+----------------------------------------
+>>> Model Saved
+Epoch 3 | Total Loss: 0.9706 | MSE Loss: 0.4465
+Valence Corr: 0.8783 | Arousal Corr: 0.4887
+----------------------------------------
+>>> Model Saved
+Epoch 4 | Total Loss: 0.9059 | MSE Loss: 0.3682
+Valence Corr: 0.8862 | Arousal Corr: 0.5049
+----------------------------------------
+>>> Model Saved
+Epoch 5 | Total Loss: 0.8500 | MSE Loss: 0.3057
+Valence Corr: 0.8992 | Arousal Corr: 0.5235
+----------------------------------------
+Epoch 6 | Total Loss: 0.8089 | MSE Loss: 0.2655
+Valence Corr: 0.8887 | Arousal Corr: 0.5072
+----------------------------------------
+Epoch 7 | Total Loss: 0.7784 | MSE Loss: 0.2405
+Valence Corr: 0.8838 | Arousal Corr: 0.5101
+
+##laptop model on restraunt test with alpha = 0.3
+
+==================================================
+ TEST RESULTS FOR: eng_restaurant_test_task1.jsonl 
+==================================================
+ Valence RMSE:        1.2465
+ Arousal RMSE:        0.7784
+--------------------------------------------------
+ Valence Correlation: 0.7956
+ Arousal Correlation: 0.5485
+==================================================
+
+##laptop model on restraunt test with alpha = 0.1
+==================================================
+ TEST RESULTS FOR: eng_restaurant_test_task1.jsonl 
+==================================================
+ Valence RMSE:        1.2446
+ Arousal RMSE:        0.8219
+--------------------------------------------------
+ Valence Correlation: 0.7951
+ Arousal Correlation: 0.5307
+==================================================
+
+laptop model alpha = 0.5
+>>> Model Saved
+Epoch 1 | Total Loss: 2.2350 | MSE Loss: 2.1111
+Valence Corr: 0.8341 | Arousal Corr: 0.4287
+----------------------------------------
+>>> Model Saved
+Epoch 2 | Total Loss: 1.4103 | MSE Loss: 0.6122
+Valence Corr: 0.8917 | Arousal Corr: 0.4708
+----------------------------------------
+>>> Model Saved
+Epoch 3 | Total Loss: 1.2923 | MSE Loss: 0.4665
+Valence Corr: 0.8994 | Arousal Corr: 0.5267
+----------------------------------------
+Epoch 4 | Total Loss: 1.2108 | MSE Loss: 0.3793
+Valence Corr: 0.8937 | Arousal Corr: 0.5070
+----------------------------------------
+Epoch 5 | Total Loss: 1.1564 | MSE Loss: 0.3296
+Valence Corr: 0.8909 | Arousal Corr: 0.5237
+----------------------------------------
+Epoch 6 | Total Loss: 1.1037 | MSE Loss: 0.2947
+Valence Corr: 0.8935 | Arousal Corr: 0.5194
+----------------------------------------
+>>> Model Saved
+Epoch 7 | Total Loss: 1.0552 | MSE Loss: 0.2732
+Valence Corr: 0.9008 | Arousal Corr: 0.5487
+----------------------------------------
+
+laptop model on restraint dataset alpha = 0.5
+==================================================
+ TEST RESULTS FOR: eng_restaurant_test_task1.jsonl 
+==================================================
+ Valence RMSE:        1.2507
+ Arousal RMSE:        0.7768
+--------------------------------------------------
+ Valence Correlation: 0.7929
+ Arousal Correlation: 0.5302
+==================================================
+
+restaurant alpha = 0.5
+>>> Model Saved
+Epoch 1 | Total Loss: 2.9622 | MSE Loss: 3.4528
+Valence Corr: 0.8376 | Arousal Corr: 0.4793
+----------------------------------------
+>>> Model Saved
+Epoch 2 | Total Loss: 1.5767 | MSE Loss: 0.8563
+Valence Corr: 0.8700 | Arousal Corr: 0.5984
+----------------------------------------
+>>> Model Saved
+Epoch 3 | Total Loss: 1.3888 | MSE Loss: 0.5864
+Valence Corr: 0.9065 | Arousal Corr: 0.6222
+----------------------------------------
+Epoch 4 | Total Loss: 1.2574 | MSE Loss: 0.4433
+Valence Corr: 0.9027 | Arousal Corr: 0.6422
+----------------------------------------
+Epoch 5 | Total Loss: 1.1797 | MSE Loss: 0.3558
+Valence Corr: 0.9024 | Arousal Corr: 0.6294
+----------------------------------------
+Epoch 6 | Total Loss: 1.1157 | MSE Loss: 0.3092
+Valence Corr: 0.8925 | Arousal Corr: 0.6344
+----------------------------------------
+Epoch 7 | Total Loss: 1.0541 | MSE Loss: 0.2700
+Valence Corr: 0.9047 | Arousal Corr: 0.6220
+
+restaurant model on laptop data alpha = 0.5
+==================================================
+ TEST RESULTS FOR: eng_laptop_test_task1.jsonl 
+==================================================
+ Valence RMSE:        1.2704
+ Arousal RMSE:        0.8396
+--------------------------------------------------
+ Valence Correlation: 0.7748
+ Arousal Correlation: 0.4841
+==================================================
+
+restaurant model alpha =0.3
+>>> Model Saved
+Epoch 1 | Total Loss: 3.3325 | MSE Loss: 3.7005
+Valence Corr: 0.8415 | Arousal Corr: 0.3257
+----------------------------------------
+>>> Model Saved
+Epoch 2 | Total Loss: 1.3194 | MSE Loss: 0.8960
+Valence Corr: 0.8577 | Arousal Corr: 0.5283
+----------------------------------------
+>>> Model Saved
+Epoch 3 | Total Loss: 1.0992 | MSE Loss: 0.6267
+Valence Corr: 0.8846 | Arousal Corr: 0.5819
+----------------------------------------
+>>> Model Saved
+Epoch 4 | Total Loss: 0.9603 | MSE Loss: 0.4672
+Valence Corr: 0.9079 | Arousal Corr: 0.6115
+----------------------------------------
+>>> Model Saved
+Epoch 5 | Total Loss: 0.8656 | MSE Loss: 0.3679
+Valence Corr: 0.9115 | Arousal Corr: 0.6075
+----------------------------------------
+Epoch 6 | Total Loss: 0.7959 | MSE Loss: 0.2978
+Valence Corr: 0.9066 | Arousal Corr: 0.6155
+----------------------------------------
+Epoch 7 | Total Loss: 0.7556 | MSE Loss: 0.2611
+Valence Corr: 0.9088 | Arousal Corr: 0.6382
+----------------------------------------
+
+restaurant model on laptop dataset alpha =0.3
+
+==================================================
+ TEST RESULTS FOR: eng_laptop_test_task1.jsonl 
+==================================================
+ Valence RMSE:        1.2704
+ Arousal RMSE:        0.8397
+--------------------------------------------------
+ Valence Correlation: 0.7761
+ Arousal Correlation: 0.4870
+==================================================
+
+restaurant model alpha = 0.1
+
+>>> Model Saved
+Epoch 1 | Total Loss: 3.3139 | MSE Loss: 3.4051
+Valence Corr: 0.8297 | Arousal Corr: 0.4110
+----------------------------------------
+>>> Model Saved
+Epoch 2 | Total Loss: 1.0291 | MSE Loss: 0.8866
+Valence Corr: 0.8558 | Arousal Corr: 0.5483
+----------------------------------------
+>>> Model Saved
+Epoch 3 | Total Loss: 0.7849 | MSE Loss: 0.6259
+Valence Corr: 0.8818 | Arousal Corr: 0.5547
+----------------------------------------
+>>> Model Saved
+Epoch 4 | Total Loss: 0.6422 | MSE Loss: 0.4765
+Valence Corr: 0.8948 | Arousal Corr: 0.5650
+----------------------------------------
+>>> Model Saved
+Epoch 5 | Total Loss: 0.5307 | MSE Loss: 0.3594
+Valence Corr: 0.8998 | Arousal Corr: 0.5737
+----------------------------------------
+>>> Model Saved
+Epoch 6 | Total Loss: 0.4644 | MSE Loss: 0.2916
+Valence Corr: 0.9071 | Arousal Corr: 0.6018
+----------------------------------------
+Epoch 7 | Total Loss: 0.4236 | MSE Loss: 0.2514
+Valence Corr: 0.9057 | Arousal Corr: 0.5974
+----------------------------------------
+
+restaurant model on laptop dataset alpha = 0.1
+
+==================================================
+ TEST RESULTS FOR: eng_laptop_test_task1.jsonl 
+==================================================
+ Valence RMSE:        1.2858
+ Arousal RMSE:        0.9535
+--------------------------------------------------
+ Valence Correlation: 0.7725
+ Arousal Correlation: 0.4918
+==================================================
+
